@@ -1,0 +1,27 @@
+body {
+  font-family: palatino linotype;
+  font-size: 20px;
+  background-image: url(https://images6.alphacoders.com/370/370797.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+legend {
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  font-weight: bold;
+}
+
+fieldset {
+  border-color: red;
+  border-style: dashed;
+  width: 300px;
+  margin: auto;
+  font-weight: bold;
+  text-shadow: 	#F0FFFF 1px 1px, 	#F0FFFF -1px 1px, 	#F0FFFF -1px -1px, 	#F0FFFF 1px -1px;
+
+}
+
+.commande {
+  text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Commande</title>
+</head>
+<body>
+  <div>
+    <form>
+      <fieldset>
+        <legend>Choix du type de pâte</legend>
+        <input type="checkbox" name="spaghetti" id="spaghetti"/><label for="spaghetti">Spaghetti</label><br>
+        <input type="checkbox" name="penne" id="penne"/><label for="penne">Penne</label><br>
+        <input type="checkbox" name="tortellini" id="tortellini"/><label for="tortellini">Tortellini</label><br>
+        <input type="checkbox" name="macaroni" id="macaroni"/><label for="macaroni">Macaroni</label><br>
+      </fieldset>
+      <fieldset>
+        <legend>Sauces</legend>
+        <p>
+          <label for="sauce">Veuillez choisir votre sauce</label><br><br>
+          <select name="sauce" id="sauce">
+            <option value="saumon">Saumon</option>
+            <option value="carbonara">Carbonara</option>
+            <option value="bolognaise">Bolognaise</option>
+            <option value="pesto rouge et poulet">Pesto rouge et poulet</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Boissons</legend>
+        <p>
+          <label for="boisson">Veuillez choisir votre boisson</label><br><br>
+          <select name="boisson" id="boisson">
+            <option value="bière">Bière</option>
+            <option value="coca">Coca</option>
+            <option value="eau">Eau</option>
+            <option value="jus d'orange">Jus d'orange</option>
+          </select>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Desserts</legend>
+        <input type="checkbox" name="Yaourt nature" id="Yaourt nature"/><label for="Yaourt nature">Yaourt nature</label><br>
+        <input type="checkbox" name="Fromage blanc" id="Fromage blanc"/><label for="Fromage blanc">Fromage blanc</label><br>
+        <input type="checkbox" name="Tarte aux pommes" id="Tarte aux pommes"/><label for="Tarte aux pommes">Tarte aux pommes</label><br>
+        <input type="checkbox" name="Café gourmand" id="Café gourmand"/><label for="Café gourmand">Café gourmand</label><br>
+      </fieldset>
+      <br><fieldset>
+        <p>
+          <input type="radio" name="choix" value="sur place" id="sur place" /> <label for="sur place">sur place</label>
+          ou
+          <input type="radio" name="choix" value="à emporter" id="à emporter" /> <label for="à emporter">à emporter</label>
+        </p>
+      </form>
+      <form action="validation/index.html" method="get">
+      </fieldset>
+      <p class="commande"><input type="submit" value="Valider la commande"/></p>
+    </form>
+  </div>
+</body>
+</html>

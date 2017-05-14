@@ -1,0 +1,41 @@
+body {
+    background: url(http://chexfoods.com/wp-content/uploads/2014/06/shutterstock_81645955.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: palatino linotype;
+}
+
+h1 {
+  text-align: right;
+  color: red;
+  font-size: 50px;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+ .vert {
+   color: forestgreen;
+ }
+ .blanc {
+   color: white;
+ }
+
+ form {
+   text-align: right;
+ }
+
+ img {
+   margin-top: 10px;
+   margin-left: 50px;
+ }
+
+ li {
+   text-align: center;
+   list-style: none;
+   font-size: 40px;
+ }
+
+ a {
+   font-weight: bold;
+   text-decoration: none;
+   color: white;
+   text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+ }

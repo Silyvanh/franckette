@@ -1,0 +1,28 @@
+body {
+  background-image: url(https://images6.alphacoders.com/370/370797.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+p {
+  text-align: center;
+  font-size: 26px;
+}
+
+a {
+  color: black;
+}
+
+div.centre {
+  text-align: center;
+  text-shadow: 	#F0FFFF 1px 1px, 	#F0FFFF -1px 1px, 	#F0FFFF -1px -1px, 	#F0FFFF 1px -1px;
+  font-size: 30px;
+  border: 3px green dotted;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 700px;
+  height: 280px;
+  margin-left: -350px; /* Cette valeur doit être la moitié négative de la valeur du width */
+  margin-top: -140px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}

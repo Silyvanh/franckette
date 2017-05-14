@@ -1,0 +1,14 @@
+body {
+  font-family: palatino linotype;
+  background-image: url(https://images6.alphacoders.com/370/370797.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+  text-shadow: 	#F0FFFF 1px 1px, 	#F0FFFF -1px 1px, 	#F0FFFF -1px -1px, 	#F0FFFF 1px -1px;
+  font-weight: bold;
+}
